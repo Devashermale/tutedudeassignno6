@@ -1,0 +1,20 @@
+{
+  "name": "assignment6",
+  "version": "1.0.0",
+  "description": "assignment ",
+  "license": "ISC",
+  "author": "deva s",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "nodemon": "^3.1.11",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {},
+  "keywords": []
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 2</title>
+  <style>
+    body{
+    overflow: hidden;
+    height: 150%;
+
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.logo{
+    display: flex;
+    block-size: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-right: 20px;
+    
+}
+.navbar ,ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type:none;
+    align-items: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    gap:50px   
+}
+a{
+     text-decoration: none;
+     color: black;
+}
+.profile{
+position: relative;
+height: 90px;
+
+}
+#button{
+    position: absolute;
+    top:35%;
+    left: 70%;
+    transform: translate3d(-50%, -50%);
+padding: 15px 10px 10px 10px;
+border-radius: 5px;
+border: none;
+background-color: skyblue;
+color: aqua;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.ad{
+    text-align: start;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+p{
+    color:rgb(28, 27, 27);
+}
+.laundy-img{
+    height: 170px;
+    margin-top: 200px;
+}
+.laundry-btn{
+    color: white;
+    background-color: rgb(22, 173, 223);
+    padding: 15px 30px 15px 15px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: none;
+    
+}
+img{
+    height: 400px;  
+     margin-top: 100px;
+     margin-left: 50px;
+}
+  </style>
+</head>
+<body>
+    <header class="header">
+<div class="logo">
+    <h1>Logo</h1>
+</div>
+<nav class="navbar">
+    <ul>
+            <li ><a  class="moving-class" href="home">home</a></li>
+        <li><a class="moving-class" class="moving-class" href="contact">services</a></li>
+        <li><a href="about">about us </a></li>
+        <li><a href="services">contact us</a> </li>
+    </ul>
+</nav>
+<div class="profile">
+    <button id="button">username</button>
+</div>
+
+
+    </header>
+    <main class="main">
+        <section class="text-of-ad">
+        <div class="ad">
+            <h1>Revutalize your <br>
+                Clothes with Expert
+            </h1>
+            <h1 style="color: aqua;">Laundry Services!</h1>
+            <p>from premium dry cleaning to swift wash and fold we <br> deliver care and convience.schedule a pickup and <br>rediscover the freshness of your cloths today!</p>
+           
+        <button type="button" class="laundry-btn">Book service today!</button>
+        </div>
+    </section>
+        <section class="laundry-1">
+       <div class="laundry-img">
+        <img src="./public/laundryp.png" alt="laundry-img">
+       </div>
+        </section>
+    </main>
+  
+    
+</body>
+<script src="nav.js"></script>
+</html>
