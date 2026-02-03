@@ -1,11 +1,11 @@
 const http = require('node:http');
-const fs = require('node:fs');
+const fs = require('node:fs'); 
 const server = http.createServer((req, res) =>{
 fs.readFile('index.html',(err,data)=>{
     if (req.url==='/'||req.url==='/home') {
         res.writeHead(200,{'content-type':'text/html'});
         res.end(data);
-
+   //this is about page
     } else if(req.url==='/about') {
          res.writeHead(200,{'content-type':'text/html'});
         res.end(`
@@ -104,7 +104,7 @@ fs.readFile('index.html',(err,data)=>{
 </html>
             
             `);
-        
+        //this is contact page was including html or css 
     } else if (req.url==='/contact') {
         res.writeHead(200,{'content-type':'text/html'});
         res.end(`
@@ -226,4 +226,5 @@ fs.readFile('index.html',(err,data)=>{
 })
 server.listen(3000,()=>{
     console.log(`http://localhost:${3000}`);
+
 })
