@@ -33,7 +33,10 @@ when you write on the"/contact" the page will be appear on the screen
 this page working on the http://localhost:3000/contact-Us<img width="1894" height="978" alt="Screenshot 2026-02-05 190343" src="https://github.com/user-attachments/assets/a7ac7933-13e2-4b8d-9f72-97e6fd911777" />
 
 **error page**
+
 this page appear when you typing wrong words and grammatical mistake and like http://localhost:3000/service then you got a page was not page found 
+
 <img width="531" height="143" alt="Screenshot 2026-02-05 191129" src="https://github.com/user-attachments/assets/8297de97-2666-4cb6-b56f-293a8dd782cd" />
+
 **error output page**
 <img width="1919" height="989" alt="Screenshot 2026-02-05 190859" src="https://github.com/user-attachments/assets/fbed2fd7-e14e-4ac0-b0c6-df502eaa104f" />
