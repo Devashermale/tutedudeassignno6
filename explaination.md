@@ -1,8 +1,13 @@
-Hello the explaination of the  server js file and their routes 
+Hello the explaination of the  server js file and their 
+
 ** there are 3 routess**
+
    1.home page 
+   
   // this file content the code of home page using file system module
+  
   when you write on the"/"or "/home" the page will be appear on the screen
+  
    <img width="555" height="131" alt="home page code" src="https://github.com/user-attachments/assets/25a9778e-53ce-4221-8b6e-c4d6830ade9d" />
 
  ** home page output **
