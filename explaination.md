@@ -11,10 +11,16 @@ Hello the explaination of the  server js file and their
    <img width="555" height="131" alt="home page code" src="https://github.com/user-attachments/assets/25a9778e-53ce-4221-8b6e-c4d6830ade9d" />
 
  ** home page output **
- 
+
  this is home page was output working on the http://localhost:3000/ or /home this file include the home page only 
- <img width="1828" height="903" alt="Screenshot 2026-02-05 183845" src="https://github.com/user-attachments/assets/535dbd07-556f-4b41-9836-02782b146773" />
-  
+
+ 1.http://localhost:3000/home
+ <img width="1919" height="997" alt="Screenshot 2026-02-06 190345" src="https://github.com/user-attachments/assets/4cb93a7c-a981-46ab-8875-0851af05a945" /> 
+
+ 1.http://localhost:3000/
+ <img width="1897" height="965" alt="Screenshot 2026-02-06 190811" src="https://github.com/user-attachments/assets/001baaef-0600-40f1-9018-768f86ba7b89" />
+
+ 
    2. about page 
    
    //this is page is working as the about page of website the file containing html code and internal css of page the basic file 
@@ -39,9 +45,12 @@ this page working on the http://localhost:3000/contact-Us<img width="1894" heigh
 
 **error page**
 
-this page appear when you typing wrong words and grammatical mistake and like http://localhost:3000/service then you got a page was not page found 
+this page appear when you typing wrong words and grammatical mistake and like http://localhost:3000/index.html then you got a page was not page found 
 
-<img width="531" height="143" alt="Screenshot 2026-02-05 191129" src="https://github.com/user-attachments/assets/8297de97-2666-4cb6-b56f-293a8dd782cd" />
+<img width="705" height="320" alt="Screenshot 2026-02-06 190358" src="https://github.com/user-attachments/assets/daa767d5-45a1-4b1d-8dda-90e2a868cb7c" />
+
 
 **error output page**
-<img width="1919" height="989" alt="Screenshot 2026-02-05 190859" src="https://github.com/user-attachments/assets/fbed2fd7-e14e-4ac0-b0c6-df502eaa104f" />
+
+<img width="1916" height="1009" alt="Screenshot 2026-02-06 190310" src="https://github.com/user-attachments/assets/a4b0961f-dcf3-409b-96d2-72ce7794c8d7" />
+
