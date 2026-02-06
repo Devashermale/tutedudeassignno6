@@ -220,7 +220,16 @@ fs.readFile('index.html',(err,data)=>{
             `)
     }else{
       res.writeHead(404,{'content-type':'text/html'});
-      res.end(err);
+      res.end(`
+        <html>
+          <head>
+          <title>error</title>
+          </head>
+          <body>
+          <h1>page not found </h1>
+          </body>
+          </html>
+      `);
     }
 })
 })
@@ -228,3 +237,4 @@ server.listen(3000,()=>{
     console.log(`http://localhost:${3000}`);
 
 })
+
